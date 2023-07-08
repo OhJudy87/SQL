@@ -1,0 +1,14 @@
+/** Book List:
+Romance (4)
+Mystery (3)
+Comedy (8)
+**/
+
+Create Table booklist (id INTEGER Primary key, name TEXT, rating INTEGER);
+
+Insert into booklist VALUES (1, "Romance", 4);
+Insert into booklist VALUES (2, "Mystery",3);
+Insert into booklist VALUES (3, "Comedy", 8);
+
+--display the database by rating
+Select * from booklist;  
